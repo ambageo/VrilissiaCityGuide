@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@color/listView">
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/Image"
+        android:src="@drawable/kentriki" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/image"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/Details.Name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            tools:text="pantony" />
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/Details"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            tools:text="67 Pentelis Ave" />
+
+        <TextView
+            android:id="@+id/telephone"
+            style="@style/Details"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            tools:text="2100000000" />
+
+    </LinearLayout>
+</RelativeLayout>

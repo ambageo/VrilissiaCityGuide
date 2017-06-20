@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        style="@style/HomePageImage"
+        android:src="@drawable/kentriki" />
+
+    <TextView
+        style="@style/Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header" />
+
+    <TextView
+        style="@style/HomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_page" />
+
+    <TextView
+        style="@style/contactInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_details" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Vrilissia CityGuide</string>
+    <string name="header">Vrilissia City Guide</string>
+    <string name="home_page">Welcome to the unofficial city guide of Vrilissia, where you can
+    search for places to visit, drink coffee, rest or even take your dog to a park!</string>
+    <string name="contact_details">If you want to be featured in the Vrilissia Cuty Guide, simply e-mail us at ambageo@yahoo.com</string>
+
+    <!-- string resources for the cafés-->
+    <string name="pantony">Pantony</string>
+    <string name="pantony_address">67 Pentelis Avenue</string>
+    <string name="pantony_tel">2108030311</string>
+    <string name="eliTouKlou">Eli Tou Klou</string>
+    <string name="eliTouKlou_address">110 Pentelis Avenue</string>
+    <string name="eliTouKlou_tel">2108037773</string>
+    <string name="zentil">Zentil Cafe- Bar</string>
+    <string name="zentil_address">36 Ethnikis Antistaseos st</string>
+    <string name="zentil_tel">2106130471</string>
+    <string name="coffeeLab">Coffee Lab</string>
+    <string name="coffeeLab_address">42 Pentelis Avenue</string>
+    <string name="coffeeLab_tel">2106096300</string>
+    <string name="hudson">Hudson Urban Cafe</string>
+    <string name="hudson_address">46 Grammou st</string>
+    <string name="hudson_tel">2108041170</string>
+    <string name="hole">Hole</string>
+    <string name="hole_address">138 Pentelis Avenue</string>
+    <string name="hole_tel">2106812324</string>
+    <string name="hobbs">Hobbs</string>
+    <string name="hobbs_address">110 Pentelis Avenue</string>
+    <string name="hobbs_tel">2108037893</string>
+    <string name="mikel">Mikel</string>
+    <string name="mikel_address">25 Pentelis Avenue</string>
+    <string name="mikel_tel">2106800555</string>
+
+    <!-- string resources for the bars-->
+    <string name="volstead">The Volstead Neighborhood Speakeasy</string>
+    <string name="volstead_address">32 Ethnikis Antistaseos st</string>
+    <string name="volstead_tel">2106857237</string>
+    <string name="cibo">Cibo</string>
+    <string name="cibo_address">29 Konitsis st</string>
+    <string name="cibo_tel">2106897030</string>
+    <string name="homemade">Homemade Cocktail Bar</string>
+    <string name="homemade_address">33- 37 Ethnikis Antistaseos st</string>
+    <string name="homemade_tel">2130270832</string>
+    <string name="thirtyThree">Thirty Three Squared</string>
+    <string name="thirtyThree_address">Analipseos Square 4</string>
+    <string name="thirtyThree_tel">2106821033</string>
+    <string name="lazy">Lazy Rock Bar</string>
+    <string name="lazy_address">1 Pentelis Avenue</string>
+    <string name="lazy_tel">2106895535</string>
+    <string name="barbaraQue">BarBara Que</string>
+    <string name="barbaraQue_address">27 Ethnikis Antistaseos st</string>
+    <string name="barbaraQue_tel">2130349058</string>
+
+    <!-- string resources for the restaurants -->
+    <string name="pittaPappou">Pita Tou Pappou</string>
+    <string name="pittaPappou_address">50 Pentelis Avenue</string>
+    <string name="pittaPappou_tel">2106131420</string>
+    <string name="souvlakiVrilission">To Souvlaki Ton Vrilission</string>
+    <string name="souvlakiVrilission_address">35 Ethnikis Antistaseos st</string>
+    <string name="souvlakiVrilission_tel">2106131951</string>
+    <string name="gustoDivino">Gusto Divino</string>
+    <string name="gustoDivino_address">114 Pentelis Avenue</string>
+    <string name="gustoDivino_tel">2108045531</string>
+    <string name="simplyBurgers">Simply Burgers</string>
+    <string name="simplyBurgers_address">41 Pentelis Avenue</string>
+    <string name="simplyBurgers_tel">2117300020</string>
+    <string name="mammoth">Mammoth Slow Food</string>
+    <string name="mammoth_address">1 Thetidos st</string>
+    <string name="mammoth_tel">2106131180</string>
+
+    <!-- string resourced for parks and places of interest-->
+    <string name="mikis">Mikis Theodorakis Park</string>
+    <string name="mikis_address">57 Imittou st</string>
+    <string name="attikoParko">Attiko Parko Vrilission</string>
+    <string name="attikoParko_address">20 Attikis st</string>
+    <string name="kallas">Maria Kalla Park (Naftiki Vasi)</string>
+    <string name="kallas_address">41 Pentelis Avenue</string>
+    <string name="analipseos">Analipseos Square</string>
+    <string name="analipseos_address">38 Ethnikis Antistaseos st</string>
+    <string name="townHall">Vrilissia Town Hall</string>
+    <string name="townHall_address">23 Demetriou Vernardou st</string>
+    <string name="townHall_tel">2132050500</string>
+    <string name="aqueduct">Aqueduct</string>
+    <string name="aqueduct_address">Agias Lavras Square</string>
+    <string name="eleftherias">Eleftherias Square</string>
+    <string name="eleftherias_address">40 Pentelis Avenue</string>
+    <string name="analipseosChurch">Analipseos Church</string>
+    <string name="analipseosChurch_address">38 Ethnikis Antistaseos st</string>
+    <string name="vougiouklaki">Aliki Vougiouklaki Theater</string>
+    <string name="vougiouklaki_address">25 Metamorfosseos Sotiros st</string>
+    <string name="vougiouklaki_tel">2108034190</string>
+
+    <!-- string resources for the tab names-->
+    <string name="tab1">Home</string>
+    <string name="tab2">Cafés</string>
+    <string name="tab3">Bars</string>
+    <string name="tab4">Restaurants</string>
+    <string name="tab5">Parks- Places of Interest</string>
+
+
+
+</resources>
