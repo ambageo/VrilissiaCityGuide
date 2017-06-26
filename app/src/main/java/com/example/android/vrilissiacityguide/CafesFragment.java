@@ -33,14 +33,14 @@ public class CafesFragment extends Fragment {
 
         ArrayList<Details> details = new ArrayList<Details>();
 
-        details.add(new Details(R.drawable.pantony, R.string.pantony, R.string.pantony_address, R.string.pantony_tel));
-        details.add(new Details(R.drawable.elli_tou_klou, R.string.eliTouKlou, R.string.eliTouKlou_address, R.string.eliTouKlou_tel));
-        details.add(new Details(R.drawable.zentil, R.string.zentil, R.string.zentil_address, R.string.zentil_tel));
-        details.add(new Details(R.drawable.coffee_lab, R.string.coffeeLab, R.string.coffeeLab_address, R.string.coffeeLab_tel));
-        details.add(new Details(R.drawable.hudson, R.string.hudson, R.string.hobbs_address, R.string.hudson_tel));
-        details.add(new Details(R.drawable.hole, R.string.hole, R.string.hole_address,R.string.hole_tel));
-        details.add(new Details(R.drawable.hobbs, R.string.hobbs, R.string.hobbs_address, R.string.hobbs_tel));
-        details.add(new Details(R.drawable.mikel, R.string.mikel,R.string.mikel_address,R.string.mikel_tel));
+        details.add(new Details(R.drawable.pantony, R.string.pantony, R.string.pantony_address, R.string.pantony_tel, R.string.pantony_web));
+        details.add(new Details(R.drawable.elli_tou_klou, R.string.eliTouKlou, R.string.eliTouKlou_address, R.string.eliTouKlou_tel, R.string.eliTouKlou_web));
+        details.add(new Details(R.drawable.zentil, R.string.zentil, R.string.zentil_address, R.string.zentil_tel, R.string.zentil_web));
+        details.add(new Details(R.drawable.coffee_lab, R.string.coffeeLab, R.string.coffeeLab_address, R.string.coffeeLab_tel, R.string.coffeeLab_web));
+        details.add(new Details(R.drawable.hudson, R.string.hudson, R.string.hudson_address, R.string.hudson_tel, R.string.hudson_web));
+        details.add(new Details(R.drawable.hole, R.string.hole, R.string.hole_address,R.string.hole_tel, R.string.hole_web));
+        details.add(new Details(R.drawable.hobbs, R.string.hobbs, R.string.hobbs_address, R.string.hobbs_tel, R.string.hobbs_web));
+        details.add(new Details(R.drawable.mikel, R.string.mikel,R.string.mikel_address,R.string.mikel_tel, R.string.mikel_web));
 
         DetailsAdapter detailsAdapter = new DetailsAdapter(getActivity(), details);
 

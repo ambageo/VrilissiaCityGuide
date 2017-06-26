@@ -34,7 +34,6 @@ public class ParksPlacesOfInterestFragment extends Fragment {
         details.add(new Details(R.drawable.naftiki_vasi, R.string.kallas, R.string.kallas_address));
         details.add(new Details(R.drawable.square_analipseos, R.string.analipseos, R.string.analipseos_address));
         details.add(new Details(R.drawable.dimarxeio, R.string.townHall, R.string.townHall_address, R.string.townHall_tel));
-        details.add(new Details(R.drawable.udragogeio, R.string.aqueduct, R.string.aqueduct_address));
         details.add(new Details(R.drawable.eleftherias, R.string.eleftherias, R.string.eleftherias_address));
         details.add(new Details(R.drawable.church_analipseos, R.string.analipseosChurch, R.string.analipseosChurch_address));
         details.add(new Details(R.drawable.aliki_vougiouklaki, R.string.vougiouklaki, R.string.vougiouklaki_address, R.string.vougiouklaki_tel));

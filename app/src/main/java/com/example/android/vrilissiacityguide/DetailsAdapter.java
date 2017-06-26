@@ -1,11 +1,15 @@
 package com.example.android.vrilissiacityguide;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -31,15 +35,16 @@ public class DetailsAdapter extends ArrayAdapter<Details> {
 
     }
 
+
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, final View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
         // get the data item associated with the specified position
-        Details currentDetail = getItem(position);
+        final Details currentDetail = getItem(position);
 
         //find the ImageView in the list_view.xml and set the ImageView to the image resource
         //specified in the details
@@ -56,9 +61,10 @@ public class DetailsAdapter extends ArrayAdapter<Details> {
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.name);
         nameTextView.setText(currentDetail.getName());
 
-        //get the address of the specifis details and set it om the addressTextView
+        //get the address of the specific details and set it om the addressTextView
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.address);
         addressTextView.setText(currentDetail.getAddress());
+
 
         //get the telephone number of the specific details and set it on the telNumberTextView
         TextView telNumberTextView = (TextView) listItemView.findViewById(R.id.telephone);
@@ -68,6 +74,20 @@ public class DetailsAdapter extends ArrayAdapter<Details> {
             telNumberTextView.setVisibility(View.VISIBLE);
         } else telNumberTextView.setVisibility(View.GONE);
 
+        listItemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (String.valueOf(currentDetail.getWebAddress()) != null) {
+                    Uri webPage = Uri.parse(String.valueOf(currentDetail.getWebAddress()));
+                    Intent intent = new Intent(Intent.ACTION_VIEW, webPage);
+                        v.getContext().startActivity(intent);
+                    }
+                }
+
+        });
         return listItemView;
     }
+
+
 }

@@ -31,12 +31,12 @@ public class BarsFragment extends Fragment {
 
         ArrayList<Details> details = new ArrayList<Details>();
 
-        details.add(new Details(R.drawable.volstead, R.string.volstead, R.string.volstead_address, R.string.volstead_tel));
-        details.add(new Details(R.drawable.cibo, R.string.cibo, R.string.cibo_address, R.string.cibo_tel));
-        details.add(new Details(R.drawable.homemade, R.string.homemade, R.string.homemade_address, R.string.homemade_tel));
-        details.add(new Details(R.drawable.thirty_three,R.string.thirtyThree, R.string.thirtyThree_address, R.string.thirtyThree_tel));
-        details.add(new Details(R.drawable.lazy, R.string.lazy, R.string.lazy_address, R.string.lazy_tel));
-        details.add(new Details(R.drawable.barbara_que, R.string.barbaraQue, R.string.barbaraQue_address, R.string.barbaraQue_tel));
+        details.add(new Details(R.drawable.volstead, R.string.volstead, R.string.volstead_address, R.string.volstead_tel, R.string.volstead_web));
+        details.add(new Details(R.drawable.cibo, R.string.cibo, R.string.cibo_address, R.string.cibo_tel, R.string.cibo_web));
+        details.add(new Details(R.drawable.homemade, R.string.homemade, R.string.homemade_address, R.string.homemade_tel, R.string.homemade_web));
+        details.add(new Details(R.drawable.thirty_three,R.string.thirtyThree, R.string.thirtyThree_address, R.string.thirtyThree_tel, R.string.thirtyThree_web));
+        details.add(new Details(R.drawable.lazy, R.string.lazy, R.string.lazy_address, R.string.lazy_tel, R.string.lazy_web));
+        details.add(new Details(R.drawable.barbara_que, R.string.barbaraQue, R.string.barbaraQue_address, R.string.barbaraQue_tel, R.string.barbaraQue_web));
 
 
         DetailsAdapter detailsAdapter = new DetailsAdapter(getActivity(), details);

@@ -27,21 +27,34 @@ public class Details {
     //resource id for the address
     private int addressId;
 
+    //resource id for the web address
+    private int webId;
+
+
+    //Constructor for places with no available web address
+    public Details(int image, int name, int address, int telNumber){
+        resourceId= image;
+        nameId= name;
+        addressId= address;
+        telNumberId= telNumber;
+    }
 
     //Constructor for places with all data available
-    public Details(int image, int name, int address, int telNumber) {
+    public Details(int image, int name, int address, int telNumber, int webAddress) {
         resourceId = image;
         nameId = name;
         addressId = address;
         telNumberId = telNumber;
+        webId= webAddress;
     }
 
 
-    //Constructor for places with telephone number available available
+    //Constructor for places without phone number nor web address available
     public Details(int image, int name, int address) {
         resourceId = image;
         nameId = name;
         addressId = address;
+
     }
 
     //method to get the image resource Id
@@ -62,6 +75,11 @@ public class Details {
     //method to get the telephone number of the place
     public int getTelNumber() {
         return telNumberId;
+    }
+
+    //method to get the web address of the place
+    public int getWebAddress(){
+        return webId;
     }
 
     //method to check whether an image is provided or not. If the resourceId is updated,
