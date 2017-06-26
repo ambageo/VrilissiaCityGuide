@@ -43,7 +43,7 @@
     <string name="volstead">The Volstead Neighborhood Speakeasy</string>
     <string name="volstead_address">32 Ethnikis Antistaseos st</string>
     <string name="volstead_tel">2106857237</string>
-    <string name="volstead_web">2https://www.facebook.com/TheVolsteadNeighborhoodSpeakeasy/</string>
+    <string name="volstead_web">https://www.facebook.com/TheVolsteadNeighborhoodSpeakeasy/</string>
     <string name="cibo">Cibo</string>
     <string name="cibo_address">29 Konitsis st</string>
     <string name="cibo_tel">2106897030</string>

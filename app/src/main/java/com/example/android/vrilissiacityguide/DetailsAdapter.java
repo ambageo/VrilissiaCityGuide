@@ -69,6 +69,9 @@ public class DetailsAdapter extends ArrayAdapter<Details> {
         //get the telephone number of the specific details and set it on the telNumberTextView
         TextView telNumberTextView = (TextView) listItemView.findViewById(R.id.telephone);
 
+        final String webAddress = this.getContext().getString(currentDetail.getWebAddress());
+
+
         if (currentDetail.hasPhone()) {
             telNumberTextView.setText(String.valueOf(currentDetail.getTelNumber()));
             telNumberTextView.setVisibility(View.VISIBLE);
@@ -78,13 +81,18 @@ public class DetailsAdapter extends ArrayAdapter<Details> {
             @Override
             public void onClick(View v) {
 
-                if (String.valueOf(currentDetail.getWebAddress()) != null) {
+                if (webAddress != null) {
+                    Uri webPage = Uri.parse(webAddress);
+                    Log.v("Web address:", webAddress);
+                    Intent intent = new Intent(Intent.ACTION_VIEW, webPage);
+                    v.getContext().startActivity(intent);
+                }
+                /*if (String.valueOf(currentDetail.getWebAddress()) != null) {
                     Uri webPage = Uri.parse(String.valueOf(currentDetail.getWebAddress()));
                     Intent intent = new Intent(Intent.ACTION_VIEW, webPage);
                         v.getContext().startActivity(intent);
-                    }
-                }
-
+                    }*/
+            }
         });
         return listItemView;
     }
